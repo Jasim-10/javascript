@@ -2,3 +2,12 @@
 
 // alert(3+6)      //we are using nodejs,not browser
 
+
+
+let  full_name = "hitesh"           //string
+let age = 18                        //number
+let isLoggedIn = true               //boolean
+let won = null;                     //null
+let state;                          //undefined
+
+console.log(full_name,age,isLoggedIn,won,state)
