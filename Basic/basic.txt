@@ -52,3 +52,25 @@ In JS, strings are primitive data types and immutable (cannot be changed directl
 | `split()`       | `"a,b,c".split(",")`                 | `["a","b","c"]` | Splits a string into an array based on a delimiter.                         |
 | `repeat()`      | `"ha".repeat(3)`                     | `hahaha`        | Returns a new string with the original repeated the specified number times. |
 | `padStart()`    | `"5".padStart(3,"0")`                | `005`           | Pads the string from the start until it reaches the desired length.         |
+
+
+
+
+
+
+Math.PI → Returns the value of π (approx. 3.141592653589793).
+Math.round(x) → Rounds a number to the nearest integer.
+Math.abs(x) → Returns the absolute value (removes negative sign).
+Math.ceil(x) → Rounds a number up to the nearest integer.
+Math.floor(x) → Rounds a number down to the nearest integer.
+Math.sqrt(x) → Returns the square root of a number.
+Math.max(a, b, …) → Returns the largest value among given numbers.
+Math.min(a, b, …) → Returns the smallest value among given numbers.
+Math.random() → Returns a random decimal between 0 (inclusive) and 1 (exclusive).
+
+
+
+
+
+
+
