@@ -1,0 +1,27 @@
+An array is a special variable that can hold multiple values in a single variable.
+Arrays are ordered and indexed starting from 0.
+
+
+
+push():- Adds one or more elements at the end of the array and returns the new length.
+pop() :- Removes and returns the last element of the array.
+
+unshift() :- Adds one or more elements at the beginning of the array and returns the new length.
+shift() :-	Removes and returns the first element of the array.
+
+indexOf():- Returns the first index of a given element, or -1 if not found.
+includes():- Checks whether an array contains a given element (returns true/false).
+
+join():- Joins all elements into a string with a specified separator.
+
+
+splice():- Adds, removes, or replaces elements at specific positions.
+slice():-	Returns a shallow copy of part of the array without modifying it.
+                slice = copy
+                splice = cut & paste
+
+
+concat():- Merges two or more arrays and returns a new array.
+
+flat():- Returns a new array with all sub-array elements concatenated into it recursively up to the specified depth.
+from():- Creates an array from an array-like object.
