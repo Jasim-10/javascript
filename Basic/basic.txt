@@ -6,6 +6,7 @@ Note: prefer not use to var beacause issue in block scope and function scope
 
 
 Data Type- 
+1.primitive   
 number => 2 to power 53
 bigint 
 string => ""
@@ -14,4 +15,40 @@ null =>standalone Value
 undefined =>  value not assigned
 symbol => unique
 
+2.Refrence or non-primitive
+object, array, function, 
 
+
+
+conversion into number
+"33" => 33
+"33abc" => NaN
+true => 1, false => 0
+undefined => NaN
+null => 0
+
+
+
+
+string:
+A string is a sequence of characters (letters, digits, symbols, spaces) enclosed in quotes.
+In JS, strings are primitive data types and immutable (cannot be changed directly once created).
+
+| Function        | Example                              | Output          | Definition                                                                  |
+| --------------- | ------------------------------------ | --------------- | --------------------------------------------------------------------------- |
+| `length`        | `"hello".length`                     | `5`             | Returns the total number of characters in a string.                         |
+| `charAt(n)`     | `"hello".charAt(1)`                  | `e`             | Returns the character at the specified index (0-based).                     |
+| `toUpperCase()` | `"hello".toUpperCase()`              | `HELLO`         | Converts all characters of the string to uppercase.                         |
+| `toLowerCase()` | `"HELLO".toLowerCase()`              | `hello`         | Converts all characters of the string to lowercase.                         |
+| `indexOf()`     | `"hello".indexOf("l")`               | `2`             | Returns the first index of the given substring; `-1` if not found.          |
+| `lastIndexOf()` | `"hello".lastIndexOf("l")`           | `3`             | Returns the last index of the given substring; `-1` if not found.           |
+| `includes()`    | `"hello".includes("he")`             | `true`          | Checks if the string contains the given substring (case-sensitive).         |
+| `startsWith()`  | `"hello".startsWith("he")`           | `true`          | Checks if the string starts with the given substring.                       |
+| `endsWith()`    | `"hello".endsWith("lo")`             | `true`          | Checks if the string ends with the given substring.                         |
+| `slice()`       | `"JavaScript".slice(0,4)`            | `Java`          | Extracts part of a string and returns it (can take negative indexes).       |
+| `substring()`   | `"JavaScript".substring(4,10)`       | `Script`        | Extracts part of a string between given indexes (cannot take negatives).    |
+| `replace()`     | `"I love JS".replace("JS","Python")` | `I love Python` | Replaces the first occurrence of a substring with another value.            |
+| `trim()`        | `"  hi  ".trim()`                    | `hi`            | Removes whitespace from both ends of a string.                              |
+| `split()`       | `"a,b,c".split(",")`                 | `["a","b","c"]` | Splits a string into an array based on a delimiter.                         |
+| `repeat()`      | `"ha".repeat(3)`                     | `hahaha`        | Returns a new string with the original repeated the specified number times. |
+| `padStart()`    | `"5".padStart(3,"0")`                | `005`           | Pads the string from the start until it reaches the desired length.         |
