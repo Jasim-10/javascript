@@ -25,3 +25,8 @@ concat():- Merges two or more arrays and returns a new array.
 
 flat():- Returns a new array with all sub-array elements concatenated into it recursively up to the specified depth.
 from():- Creates an array from an array-like object.
+
+
+
+reverse():- Reverses the order of array elements in place.
+sort():- Sorts array elements in place (alphabetically by default).
