@@ -71,4 +71,23 @@
 // tinderUser.name = "Sam"
 // tinderUser.isLoggedIn = false
 
-// console.log(tinderUser)
+// // console.log(tinderUser)
+
+// const regularUser = {
+//     email: "Some@gmail.com",
+//     fullName:{
+//         userFullname: {
+//             firstName: "jasim",
+//             lastName: "Ansari"
+//         }
+//     }
+// }
+// console.log(regularUser.fullName.userFullname.firstName)
+
+
+
+const obj1 = {1:"a",2:"b"}
+const obj2 = {2:"c",3:"d"}
+// const obj3 = Object.assign({},obj1,obj2)
+const obj3 = {...obj1, ...obj2}
+console.log(obj3)
